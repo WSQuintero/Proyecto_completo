@@ -1,0 +1,16 @@
+extends componentes_pug_login/head.pug
+block body
+	body.body
+		img.img_logo(src="./logos/logo_yard_sale.svg", alt="")
+		.form_contain
+			form(action="")
+				h1.tittle Create a new password
+				h2.subtittle Enter a new password for your account
+				label.password(for="") Password
+					input.input(type="password" placeholder="**********")
+				label.password(for="") Re-enter password
+					input.input(type="password" placeholder="**********")
+				button.button_login Confirm
+		script(src="./script.js") 
+
+

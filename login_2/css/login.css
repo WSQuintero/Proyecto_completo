@@ -33,9 +33,10 @@ body {
 }
 
 .img_logo {
-  margin-bottom: 50px;
-  width: 90%;
+  margin-bottom: 10px;
+  width: 12%;
   max-width: 300px;
+  min-width: 250px;
 }
 
 .tittle {
@@ -45,7 +46,7 @@ body {
 
 .form_contain {
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   padding-bottom: opx;
 }
 
@@ -60,13 +61,31 @@ form {
   gap: 10px;
 }
 
-.form_tittle {
+.tittle {
   font-family: "Quicksand", sans-serif;
   font-weight: 700;
   font-size: 1.8rem;
 }
 
+.subtittle {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.password {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+label {
+  margin-top: 25px;
+}
+
 .input {
+  width: 100%;
   height: 40px;
   border-radius: 6px;
   border-color: transparent;
@@ -75,6 +94,7 @@ form {
   font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
   color: #C7C7C7;
+  display: block;
 }
 .input::-webkit-input-placeholder {
   color: #C7C7C7;
